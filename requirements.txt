@@ -1,0 +1,20 @@
+# WORLD CEO Requirements
+# Generated: 2026-04-13
+
+# Core dependencies
+requests>=2.28.0
+python-dotenv>=0.19.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=3.0.0
+
+# Type checking
+mypy>=0.950
+
+# Linting
+flake8>=4.0.0
+black>=22.0.0
+
+# Utilities
+python-dateutil>=2.8.0

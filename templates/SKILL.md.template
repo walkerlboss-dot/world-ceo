@@ -1,0 +1,66 @@
+# {{AGENT_NAME}} Skill
+
+## Overview
+
+{{AGENT_DESCRIPTION}}
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+### Python API
+
+```python
+from {{AGENT_SLUG}}_skill import {{AGENT_CLASS}}Skill
+
+skill = {{AGENT_CLASS}}Skill()
+result = skill.execute("task_name", {"param": "value"})
+```
+
+### CLI
+
+```bash
+python {{AGENT_SLUG}}_skill.py --task task_name --params '{"param": "value"}'
+```
+
+## Configuration
+
+Environment variables:
+- `{{AGENT_SLUG_UPPER}}_LOG_LEVEL`: Logging level (DEBUG, INFO, WARN, ERROR)
+- `{{AGENT_SLUG_UPPER}}_TIMEOUT`: Request timeout in seconds
+
+## Tasks
+
+### example
+
+Example task description.
+
+**Parameters**:
+- `param1`: Description
+- `param2`: Description
+
+**Returns**:
+- `status`: Task status
+- `data`: Result data
+
+## Error Handling
+
+All tasks return a `TaskResult` with:
+- `success`: Boolean indicating success
+- `data`: Result data (if successful)
+- `error`: Error message (if failed)
+- `timestamp`: ISO timestamp
+
+## Testing
+
+```bash
+python -m pytest tests/
+```
+
+## License
+
+MIT
