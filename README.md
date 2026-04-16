@@ -1,6 +1,21 @@
-# WORLD CEO Agent v0.1
+# 🌍 WORLD CEO AGENT v0.1
 
-An autonomous agent that builds other specialized agents. WORLD CEO identifies opportunities, designs agent architectures, generates production-ready code, and deploys them into the OpenClaw ecosystem.
+```
+    ╭──────────────────────────────────────────────────────────────╮
+    │                                                              │
+    │   ██╗    ██╗ ██████╗ ██████╗ ██╗     ██████╗  ██████╗        │
+    │   ██║    ██║██╔═══██╗██╔══██╗██║     ██╔══██╗██╔════╝        │
+    │   ██║ █╗ ██║██║   ██║██████╔╝██║     ██║  ██║██║             │
+    │   ██║███╗██║██║   ██║██╔══██╗██║     ██║  ██║██║             │
+    │   ╚███╔███╔╝╚██████╔╝██║  ██║███████╗██████╔╝╚██████╗        │
+    │    ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═════╝  ╚═════╝        │
+    │                                                              │
+    │         Autonomous Agent Builder & Orchestrator              │
+    │                                                              │
+    ╰──────────────────────────────────────────────────────────────╯
+```
+
+> **Creates specialized agents at scale.** Identifies opportunities, architects solutions, generates code, deploys autonomously. 40/40 tests passing.
 
 ## Mission
 
